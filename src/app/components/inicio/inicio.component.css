@@ -1,6 +1,7 @@
-/* .container {
-  background-color: #f7f7f7;
-} */
+.container{
+  margin-top: 40px;
+  /* position: absolute; */
+}
 
 .textInicio {
   margin-top: 35px;
@@ -16,6 +17,7 @@
   border-radius: 4px;
   background-color: #ea1d2c;
   align-items: center;
+  margin-top: 15px;
 }
 
 .input-group {
@@ -30,7 +32,6 @@
 }
 
 .text {
-  /* position: absolute; */
   width: 100px;
   word-break: break-all;
   position: relative;
@@ -38,7 +39,7 @@
 
 .bi {
   color: #ea1d2c;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-right: 10px;
 
 }
@@ -89,9 +90,6 @@
   margin-left: 20px;
 }
 
-.cardsCentral {
-  /* cursor: -webkit-grab; */
-}
 
 .img2 {
   background-color: #9eb53e;
@@ -99,4 +97,16 @@
   color: white;
   font-family: helvetica, sans-serif;
   font-size: 17px;
+}
+
+.divinputPesquisa {
+  margin-left: 110px;
+  width: 80%;
+
+}
+
+.form-control {
+  margin-top: 16px;
+  height: 48px;
+  border-radius: 3px;
 }

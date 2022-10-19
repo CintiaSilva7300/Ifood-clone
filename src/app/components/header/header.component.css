@@ -1,35 +1,42 @@
+nav {
+  width: 100%;
+}
+
 .logoHeader {
   margin-left: 30px;
 }
 
 .navbar {
-  height: 20px;
+  height: 120px;
+  background-color: #f7f7f7;
+  position: fixed;
+  top: 0;
+  z-index: 9997; /* z-index: 9997; //sobrepondo todos os elemntos a baixo do header */
 }
 
 h5 {
-  font-family: helvetica,sans-serif;
+  font-family: helvetica, sans-serif;
   font-size: 16px;
-  margin-left: 55px;
+  margin-left: 50px;
 }
 
 .criarConta {
   font-size: 15px;
   color: #ea1d2c;
-  font-family: helvetica,sans-serif;
+  font-family: helvetica, sans-serif;
   font-weight: bolder;
-  margin-left: 300px;
+  margin-left: 250px;
   text-decoration: none;
 }
 
 .btn {
-  font-family: helvetica,sans-serif;
+  font-family: helvetica, sans-serif;
   color: white;
-  margin-left: 40px;
-  height: 50px;
-  width: 100px;
+  /* margin-left: 10px; */
+  margin: 30px;
+  height: 43px;
+  width: 105px;
   border-radius: 4px;
   background-color: #ea1d2c;
   align-items: center;
 }
-
-
