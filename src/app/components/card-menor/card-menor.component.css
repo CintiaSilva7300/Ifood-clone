@@ -47,3 +47,12 @@ justify-content: center;
 align-items: center;
 text-align: start;
 }
+
+hr {
+  width: 100%;
+  position: relative;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: inset;
+  border-width: 1px;
+  }

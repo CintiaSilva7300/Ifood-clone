@@ -10,9 +10,22 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CardMenorComponent } from './components/card-menor/card-menor.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
+import {
+  NgbPaginationModule,
+  NgbAlertModule,
+} from '@ng-bootstrap/ng-bootstrap';
+import { CardsPromocaoComponent } from './components/cards-promocao/cards-promocao.component';
 
 @NgModule({
-  declarations: [AppComponent, InicioComponent, HeaderComponent, CardMenorComponent],
+  declarations: [
+    AppComponent,
+    InicioComponent,
+    HeaderComponent,
+    CardMenorComponent,
+    CarouselComponent,
+    CardsPromocaoComponent,
+  ],
   imports: [
     BrowserModule,
     HttpClientModule,
@@ -21,6 +34,8 @@ import { CardMenorComponent } from './components/card-menor/card-menor.component
     AppRoutingModule,
     NgbModule,
     NgbTooltipModule,
+    NgbPaginationModule,
+    NgbAlertModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

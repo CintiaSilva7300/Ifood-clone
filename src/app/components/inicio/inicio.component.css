@@ -110,7 +110,7 @@
   border-radius: 3px;
 }
 
-.btnopções {
+.btnopções1 {
   position: absolute;
   margin-top: 130px;
   margin-left: 25px;
@@ -120,3 +120,18 @@
   height: 40px;
   font-weight: bold;
 }
+
+.btnopções2 {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 25px;
+  background-color: #9eb53e;
+  border-radius: 20px;
+  width: 140px;
+  height: 40px;
+  font-weight: bold;
+  border:none!important  /* tirar a borda do button */
+
+}
+
+
