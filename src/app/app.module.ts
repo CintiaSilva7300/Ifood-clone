@@ -9,9 +9,10 @@ import { NgbModule, NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { HeaderComponent } from './components/header/header.component';
+import { CardMenorComponent } from './components/card-menor/card-menor.component';
 
 @NgModule({
-  declarations: [AppComponent, InicioComponent, HeaderComponent],
+  declarations: [AppComponent, InicioComponent, HeaderComponent, CardMenorComponent],
   imports: [
     BrowserModule,
     HttpClientModule,

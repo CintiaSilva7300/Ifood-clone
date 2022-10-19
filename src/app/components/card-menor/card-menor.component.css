@@ -1,0 +1,24 @@
+.cardsMenor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: helvetica, sans-serif;
+  margin-top: 40px;
+}
+
+.textCar {
+  margin-top: 30px;
+}
+
+.cardsMenor1{
+  height: 50px;
+}
+
+.cardsMenor2{
+  height: 50px;
+}
+
+.cardsMenor3{
+  height: 50px;
+}
