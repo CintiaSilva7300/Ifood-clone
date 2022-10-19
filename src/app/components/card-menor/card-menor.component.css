@@ -5,20 +5,45 @@
   align-items: center;
   font-family: helvetica, sans-serif;
   margin-top: 40px;
+
 }
 
 .textCar {
-  margin-top: 30px;
+  /* margin-top: 90px; */
+  /* text-align: start; */
+  /* margin-right: 30px; */
+  /* text-align: center; */
 }
 
 .cardsMenor1{
+
   height: 50px;
+  background-color: #f6d553;
+  margin-right: 10px;
 }
 
 .cardsMenor2{
   height: 50px;
+  background-color: #f9879c;
+  margin-right: 10px;
 }
 
 .cardsMenor3{
   height: 50px;
+  background-color: #8c60c5;
+}
+
+.card-img-top {
+  height: 90px;
+  width: 115px;
+  margin-left: 10px;
+  margin-top: 32px;
+}
+
+.card {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: start;
 }
