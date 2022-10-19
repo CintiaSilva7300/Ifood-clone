@@ -4,7 +4,7 @@
 }
 
 .textInicio {
-  margin-top: 35px;
+  margin-top: 155px;
   text-align: center;
 }
 
@@ -67,7 +67,6 @@
 }
 
 .card1 {
-
   background-color: #ea1d2c;
 }
 
@@ -81,6 +80,7 @@
   justify-content: center;
   align-items: center;
   font-family: helvetica, sans-serif;
+  margin-top: 40px;
 }
 
 .textCar {
@@ -100,11 +100,10 @@
 }
 
 .divinputPesquisa {
-  margin-left: 110px;
-  width: 80%;
+  margin-left: 135px;
+  width: 75%;
 
 }
-
 .form-control {
   margin-top: 16px;
   height: 48px;
