@@ -56,3 +56,9 @@ hr {
   border-style: inset;
   border-width: 1px;
   }
+
+  .h2 {
+    text-align: start;
+    font-size: 20px;
+    margin-top: 15px;
+  }
